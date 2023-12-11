@@ -274,3 +274,59 @@ section {
   font-weight: 500;
   line-height: normal;
 }
+
+/* footer */
+.footer-container {
+  background: #072664;
+  padding: 4% 0;
+}
+.footer-logo {
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 75px */
+  color: #fff;
+}
+.footer-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer ul {
+  list-style-type: none;
+}
+.footer-links {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%; /* 29.808px */
+}
+.social{
+  display: flex;
+}
+.footer-img-container {
+  width: 40px; /* Set the width of the container */
+  height: 40px;
+  background-color: white; /* Set the background color to white */
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Hide overflowing content (in case the image is larger than the container) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  color: #fff;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%; /* 24.778px */
+  text-align: center;
+}
