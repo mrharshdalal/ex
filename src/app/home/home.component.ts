@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
-import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
+import { MatChipsModule } from '@angular/material/chips';
+import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatButtonToggleModule, FormsModule, MatIconModule],
+  // Correct property names: imports and styleUrls
+  imports: [FormsModule, MatIconModule, MatChipsModule, MatButtonModule],
+  styleUrls: ['./home.component.css'], // Correct property name: styleUrls
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
 })
 export class HomeComponent {
   tags: string[] = ['Tag1', 'Tag2', 'Tag3', 'Tag4'];
