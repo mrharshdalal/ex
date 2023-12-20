@@ -39,11 +39,15 @@ section {
 
 /* header styling */
 .header-logo {
-  display: flex;
-  flex-direction: column;
+  color: white;
+  font-family: Poppins;
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 75px */
+  align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  font-family: "Poppins";
 }
 .nav-menu {
   color: var(--primary-text);

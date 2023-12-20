@@ -38,11 +38,15 @@ section {
 
 /* header styling */
 .header-logo {
-  display: flex;
-  flex-direction: column;
+  color: white;
+  font-family: Poppins;
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 75px */
+  align-items: center;
   justify-content: center;
-  flex-shrink: 0;
-  font-family: "Poppins";
 }
 .nav-menu {
   color: var(--primary-text);
@@ -288,11 +292,11 @@ section {
 }
 .latest-title {
   color: var(--primary-text, #232323);
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 48px */
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
 }
 .latest-content {
   color: var(--secondary, #565656);
@@ -325,38 +329,38 @@ line-height: 150%; /* 48px */
   font-weight: 500;
   line-height: normal;
 }
-.latest-heading{
+.latest-heading {
   color: var(--primary-text, #232323);
-font-family: 'Poppins';
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 57px */
+  font-family: "Poppins";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 57px */
 }
-.latest-username2{
+.latest-username2 {
   color: var(--secondary, #565656);
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.latest-hashtags2{
+.latest-hashtags2 {
   color: rgba(128, 151, 211, 0.64);
-font-family: Inter;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-transform: uppercase;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
-.latest-title2{
+.latest-title2 {
   color: #000;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 30px */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
 }
 
 /* footer */
