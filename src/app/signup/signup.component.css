@@ -15,7 +15,7 @@
   height: 400px;
   /* border-radius: 10%; */
 }
-.signin-container {
+.signup-container {
   background-color: white;
   border-radius: 3%;
   height: 100%;
@@ -84,6 +84,11 @@
   display: block;
   font-size: 14px;
   margin-bottom: 5px;
+}
+.form-group img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 .form-group input {
